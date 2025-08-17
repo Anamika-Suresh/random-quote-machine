@@ -1,1 +1,1 @@
-A simple React-based web app that generates random quotes with their authors. Users can view a random quote on page load, fetch new quotes, and share them directly on Twitter.
+A simple React-based web app that generates random quotes with their authors. Users can view a random quote on page load, fetch new quotes, and share them directly on Twitter. Website link :  https://anamika-suresh.github.io/random-quote-machine/
