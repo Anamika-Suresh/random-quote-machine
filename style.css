@@ -1,0 +1,56 @@
+body {
+  background: #f4f4f9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+}
+
+#quote-box {
+  background: white;
+  padding: 2rem;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+#text {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#author {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+button, a {
+  margin: 0.5rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#new-quote {
+  background: #007bff;
+  color: white;
+}
+
+#tweet-quote {
+  background: #1da1f2;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* make FCC test suite bigger */
+iframe#fcc_test_suite_wrapper {
+  transform: scale(1.3);   /* increase size */
+  transform-origin: top right; /* keep it pinned in the corner */
+  z-index: 9999;           /* keep it above everything */
+}
